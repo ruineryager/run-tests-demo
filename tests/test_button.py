@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import pytest
-
+import allure
 
 @pytest.fixture()
 def browser():
